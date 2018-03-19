@@ -13,7 +13,7 @@ public class HomeController {
     /**
      * Load the TV Form.  Loads from template "tvform.html", model=Tvshow.
      * @param model Model stored for this form
-     * @return
+     * @return Form to be loaded (or name of template for the form)
      */
     @GetMapping("/tvform")
     public String loadTvForm(Model model) {
